@@ -1,0 +1,59 @@
+.container{
+    max-width: 300px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background: linear-gradient(#36e8ee, #245eca);
+    position: relative;
+}
+li {
+    text-align: left;
+    opacity: .5;
+    padding: 4px 0;
+    list-style-type: disclosure-closed;
+    padding-left: 48px;
+}
+input{
+    width:70%;
+    height: 40px;
+    margin:10px 0;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    font-size: 18px;
+
+}
+#submit{
+    cursor: pointer;
+    width: auto;
+    padding: 8px 70px;
+    background: rgb(247, 51, 61);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    border-radius: 8px;
+    transition: .4s ease all;
+}
+#submit:hover{
+    background:rgb(255, 0, 0);
+    color: #FFFFFF;
+}
+#submit[disabled]{
+    background:rgb(122, 130, 139);
+    opacity: .5;
+}
+#submit[disabled]:hover{
+    background:rgb(122, 130, 139);
+    color: #000;
+}
+#avater {
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: -15%;
+    transform: translateX(-50%);
+    background: #36e8ee;
+    border-radius: 50%;
+}
